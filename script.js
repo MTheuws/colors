@@ -1,26 +1,21 @@
-//while
 const kleur = ['geel', 'blauw', 'rood', 'oranje'];
-while (w < 5) {
-    console.log('This is while iteration number ${w}');
-    w++;
+
+//while
+let i = 0;
+while (i < kleur.length) {
+    console.log('This is while iteration number [i]');
+    i++;
 }
 
-//for
-const kleur1 = ['geel', 'blauw', 'rood', 'oranje'];
-    let kLen = kleur1.length;
-
-text = '<ul>';    
-    for (let i = 0; i < kLen; i++) {
-       text += '<li>' + kleur1[i] + '</li>';
+//for  
+for (let i = 0; i < kleur.length; i++) {
+    console.log('This is while iteration number [i]');
 }
-text += "</ul>";
 
 //forEach
-const array1 = ['geel', 'blauw', 'rood', 'oranje'];
+kleur.forEach((benoemdeKleur) => console.log(benoemdeKleur));
 
-array1.forEach(element => console.log(element));
-
-// 1: for 5, while 4
-// 2: 2
+// 1: for 3, while 5
+// 2: 1
 // 3:
 // 4:
